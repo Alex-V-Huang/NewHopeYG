@@ -8,8 +8,8 @@
 To cultivate fellowship, maturity, and relationships in New Hope Youth Group.
 
 ### Why:
-* To practice and learn technologies in a team-oriented environment.
 * To provide accessibility to resources for spiritual empowerment.
+* To practice and learn technologies in a team-oriented environment.
 
 ## Minimum Viable Product:
 A blog with different webpages that pulls information from a database using GET requests.
