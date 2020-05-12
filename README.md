@@ -1,7 +1,15 @@
 # NewHopeYG
-A resource for New Hope Youth Group
 
 ## Trello Board: https://trello.com/b/L6SpNzg1/project-x
+
+## Wiki:
+
+### Mission: 
+To cultivate fellowship, maturity, and relationships in New Hope Youth Group.
+
+### Why:
+* To practice and learn technologies in a team-oriented environment.
+* To provide accessibility to resources for spiritual empowerment.
 
 ## Minimum Viable Product:
 A blog with different webpages that pulls information from a database using GET requests.
