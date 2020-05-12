@@ -7,7 +7,7 @@
 ### Mission: 
 To cultivate fellowship, maturity, and relationships in New Hope Youth Group.
 
-### Why:
+### Purpose:
 * To provide accessibility to resources for spiritual empowerment.
 * To practice and learn technologies in a team-oriented environment.
 
