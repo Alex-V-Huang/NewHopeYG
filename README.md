@@ -39,21 +39,21 @@ A blog with different webpages that pulls information from a database using GET 
 ## Timeline: 
 
 ### Week 1:
-Sitemap 
-Sitemap Review
-Barebones Wireframe
-Wireframe Review
+* Sitemap 
+* Sitemap Review
+* Barebones Wireframe
+* Wireframe Review
 
 ### Week 2:
-Website Content
-Low Fidelity Prototype
+* Website Content
+* Low Fidelity Prototype
 
 ### Weeks 3-4:
-Coding MVP
+* Coding MVP
 
 ### Week 5:
-Debugging and Testing
-Launch
+* Debugging and Testing
+* Launch
 
 
 ## Team Member Expectations:
