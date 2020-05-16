@@ -39,13 +39,19 @@ A blog with different webpages that pulls information from a database using GET 
 ## Timeline: 
 
 ### Week 1:
-* Sitemap 
+* Sitemap
+    * Google Doc link
 * Sitemap Review
+* Design Inspiration from other websites
 * Barebones Wireframe
 * Wireframe Review
 
 ### Week 2:
+* Research
+    * Come up with questions to ask on Discord
 * Website Content
+    * Brainstorm/address common questions/FAQs (i.e. tithing, friend groups)
+    * Reflection of our own experiences, sharing wisdom
 * Low Fidelity Prototype
 
 ### Weeks 3-4:
@@ -65,7 +71,7 @@ A blog with different webpages that pulls information from a database using GET 
     * We will prefer calls over messaging back and forth
 * Cadence:
     * Weekly meetings on Saturday mornings at 9:00am - 10:00am. Frequency and time can be subject to change depending on the progress of the project. 
-    * In our weekly meetings, we will establish the following: Provide an update on progress over the past week, what went well, blockers, potential improvements/new features to put into the backlog, what we're going to do, and where we need help
+    * In our weekly meetings, we will establish the following: Provide an update on progress over the past week, what went well, blockers, potential improvements/new features to put into the backlog, what we're going to do, and where we need help. Discuss team morale and enjoyment in work.
 * Alex:
     * Work on the project every weekday (at least an hour every day)
     * Be present at the meetings on Saturday
