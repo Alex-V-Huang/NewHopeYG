@@ -14,6 +14,48 @@ To cultivate fellowship, maturity, and relationships in New Hope Youth Group.
 ## Minimum Viable Product:
 A blog with different webpages that pulls information from a database using GET requests.
 
+## Technologies:
+
+### Front End: 
+* HTML
+* CSS
+* JavaScript
+
+### Database:
+* Firebase
+
+### Libraries: 
+* React
+
+### Frameworks: 
+* Bootstrap
+
+### Website Hosting:
+* GitHub Pages
+
+### Version Control:
+* Git
+
+## Timeline: 
+
+### Week 1:
+Sitemap 
+Sitemap Review
+Barebones Wireframe
+Wireframe Review
+
+### Week 2:
+Website Content
+Low Fidelity Prototype
+
+### Weeks 3-4:
+Coding MVP
+
+### Week 5:
+Debugging and Testing
+Launch
+
+
 ## Team Member Expectations:
 * General team member expectations:
     * If messaged, provide a response within 24 hours.
