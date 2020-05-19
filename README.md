@@ -40,7 +40,7 @@ A blog with different webpages that pulls information from a database using GET 
 
 ### Week 1:
 * Sitemap
-    * Google Doc link
+    * [Google Doc link](https://docs.google.com/document/d/1BwrwS5_zx-phthdN40JxApirCp6GSZsujitGcHSCYi4/edit?usp=sharing)
 * Sitemap Review
 * Design Inspiration from other websites
 * Barebones Wireframe
