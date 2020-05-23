@@ -48,11 +48,8 @@ A blog with different webpages that pulls information from a database using GET 
 
 ### Week 2:
 * Research
-    * Come up with questions to ask on Discord
-* Website Content
-    * Brainstorm/address common questions/FAQs (i.e. tithing, friend groups)
-    * Reflection of our own experiences, sharing wisdom
-* Low Fidelity Prototype
+    * Ask what users want from the website
+* Start coding MVP
 
 ### Weeks 3-4:
 * Coding MVP
