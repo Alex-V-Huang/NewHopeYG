@@ -49,7 +49,7 @@ A blog with different webpages that pulls information from a database using GET 
 ### Week 2:
 * Research
     * Ask what users want from the website
-* Start coding MVP
+* [Low fidelity prototype]
 
 ### Weeks 3-4:
 * Coding MVP
