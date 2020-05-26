@@ -51,7 +51,7 @@ A blog with different webpages that pulls information from a database using GET 
 ### Week 2:
 * Research
     * Ask what users want from the website
-* [Low fidelity prototype]
+* [Low fidelity prototype](https://www.figma.com/file/wZ6e2QwYU8jd1ZMg25Z1O4/Untitled?node-id=0%3A1)
 
 ### Weeks 3-4:
 * Coding MVP
