@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { BrowserRouter as Router, Route} from "react-router-dom";
+
+import HomepageView from "./components/HomepageView/HomepageView.js";
+import BlogHomeView from "./components/BlogHomeView/BlogHomeView.js";
+import ReadPostView from './components/ReadPostView/ReadPostView.js';
+import WritePostView from './components/WritePostView/WritePostView.js';
+import FAQView from "./components/FAQView/FAQView.js";
+import ContactUsView from './components/ContactUsView/ContactUsView';
+
+class App extends Component {
+
+  render() {
+    
+    return (
+      <Router>
+        <Route exact path='/' render={() => <HomepageView></HomepageView>} />
+        <Route exact path='/blog' render={() => <BlogHomeView></BlogHomeView>} />
+        <Route path='/blog/read' render={()=> <ReadPostView></ReadPostView>} />
+        <Route path='/blog/write' render={() => <WritePostView></WritePostView>} />
+        <Route path='/faq' render={() => <FAQView></FAQView>} />
+        <Route path='/contactus' render={() => <ContactUsView></ContactUsView>} />
+      </Router>
+    );
+  }
+} 
 
 export default App;
