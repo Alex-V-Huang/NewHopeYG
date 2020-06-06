@@ -59,6 +59,8 @@ class BlogWrite extends Component {
                     marginTop: "15%",
                     width: "75%",
                     height: "100px",
+                    fontSize: "40px",
+                    textAlign: "bottom",
                   }}
                 ></input>
               </Card.Title>
@@ -70,6 +72,7 @@ class BlogWrite extends Component {
                       width: "15%",
                       height: "30px",
                       marginBottom: "5px",
+                      fontSize: "20px",
                     }}
                   ></input>
                 </div>
@@ -79,20 +82,25 @@ class BlogWrite extends Component {
                     style={{
                       width: "15%",
                       height: "30px",
+                      fontSize: "20px",
                     }}
                   ></input>
                 </div>
               </Card.Subtitle>
             </div>
-            <Card.Text>
-              <textarea
-                placeholder="Content goes here..."
-                rows="20"
-                style={{
-                  width: "100%",
-                }}
-              ></textarea>
-            </Card.Text>
+            <div>
+              <Card.Text>
+                <textarea
+                  placeholder="Content goes here..."
+                  rows="20"
+                  style={{
+                    width: "100%",
+                    fontSize: "20px",
+                    padding: "2%",
+                  }}
+                ></textarea>
+              </Card.Text>
+            </div>
           </Card.Body>
         </Card>
       </div>
