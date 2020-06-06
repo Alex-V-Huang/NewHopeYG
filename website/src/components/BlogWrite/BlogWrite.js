@@ -18,7 +18,17 @@ class BlogWrite extends Component {
   // componentDidUpdate(){}
 
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <Card style={{ margin: "auto", width: "80rem" }}>
+          <Card.Body>
+            <Card.Title>Post Title</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
+            <Card.Text>Description</Card.Text>
+          </Card.Body>
+        </Card>
+      </div>
+    );
   }
 }
 
