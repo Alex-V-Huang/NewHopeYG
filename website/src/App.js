@@ -10,6 +10,7 @@ import WritePostView from "./components/WritePostView/WritePostView.js";
 import FAQView from "./components/FAQView/FAQView.js";
 import ContactUsView from "./components/ContactUsView/ContactUsView";
 import Footer from "./components/Footer";
+import FAQCard from "./components/FAQCard";
 
 class App extends Component {
   render() {
@@ -37,6 +38,7 @@ class App extends Component {
           />
         </Router>
         <Footer />
+        <FAQCard />
       </div>
     );
   }
