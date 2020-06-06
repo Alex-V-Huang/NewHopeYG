@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import './Footer.css';
+import React, { Component } from "react";
+import "./Footer.css";
 
 class Footer extends Component {
   // constructor(props){
-    // super(props);
-    // this.state = {};
+  // super(props);
+  // this.state = {};
   // }
 
   // componentWillMount(){}
@@ -17,9 +17,7 @@ class Footer extends Component {
   // componentDidUpdate(){}
 
   render() {
-    return (
-      <div></div>
-    );
+    return <div>2020 New Hope Youth</div>;
   }
 }
 
