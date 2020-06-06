@@ -4,10 +4,10 @@ import "./BlogHomeView.css";
 
 
 
-import Navbar from '../Navbar/Navbar.js';
-import BlogCard from '../BlogCard/BlogCard.js';
-import Logo from '../Logo/Logo.js';
-import Banner from '../Banner/Banner.js';
+import Navbar from '../../components/Navbar/Navbar.js';
+import BlogCard from '../../components/BlogCard/BlogCard.js';
+import Logo from '../../components/Logo/Logo.js';
+import Banner from '../../components/Banner/Banner.js';
 
 class BlogHomeView extends Component {
 
