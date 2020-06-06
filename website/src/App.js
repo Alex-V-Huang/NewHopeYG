@@ -3,12 +3,12 @@ import "./App.css";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import HomepageView from "./components/HomepageView/HomepageView.js";
-import BlogHomeView from "./components/BlogHomeView/BlogHomeView.js";
-import ReadPostView from "./components/ReadPostView/ReadPostView.js";
-import WritePostView from "./components/WritePostView/WritePostView.js";
-import FAQView from "./components/FAQView/FAQView.js";
-import ContactUsView from "./components/ContactUsView/ContactUsView";
+import HomepageView from "./views/HomepageView/HomepageView.js";
+import BlogHomeView from "./views/BlogHomeView/BlogHomeView.js";
+import ReadPostView from "./views/ReadPostView/ReadPostView.js";
+import WritePostView from "./views/WritePostView/WritePostView.js";
+import FAQView from "./views/FAQView/FAQView.js";
+import ContactUsView from "./views/ContactUsView/ContactUsView";
 import Footer from "./components/Footer";
 import FAQCard from "./components/FAQCard";
 

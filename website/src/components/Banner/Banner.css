@@ -1,0 +1,11 @@
+div.banner {
+
+    height: 8rem;
+    background-image: url('../../placeholder.png');
+
+}
+
+.bannerText {
+    margin: 0 3rem;
+    padding: 4.5rem 0 0;
+}
