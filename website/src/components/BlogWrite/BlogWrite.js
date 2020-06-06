@@ -46,6 +46,9 @@ class BlogWrite extends Component {
                   width: "90px",
                   height: "35px",
                   fontSize: "12px",
+                  backgroundColor: "#f6e173",
+                  border: "none",
+                  color: "black",
                 }}
               >
                 {" "}
@@ -100,6 +103,26 @@ class BlogWrite extends Component {
                   }}
                 ></textarea>
               </Card.Text>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
+                <Button
+                  style={{
+                    width: "250px",
+                    height: "35px",
+                    fontSize: "12px",
+                    backgroundColor: "#f6e173",
+                    border: "none",
+                    color: "black",
+                  }}
+                >
+                  {" "}
+                  Submit
+                </Button>
+              </div>
             </div>
           </Card.Body>
         </Card>
