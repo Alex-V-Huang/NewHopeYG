@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./BlogWrite.css";
 import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
 class BlogWrite extends Component {
   // constructor(props){
@@ -31,37 +32,58 @@ class BlogWrite extends Component {
           }}
         >
           <Card.Body>
-            <Card.Title>
-              <input
-                placeholder="Insert title here..."
+            <div
+              style={{
+                backgroundColor: "gray",
+                paddingLeft: "2%",
+                paddingBottom: "2%",
+              }}
+            >
+              <Button
                 style={{
-                  marginTop: "15%",
-                  width: "75%",
-                  height: "100px",
+                  float: "right",
+                  margin: "2%",
+                  width: "90px",
+                  height: "35px",
+                  fontSize: "12px",
                 }}
-              ></input>
-            </Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
-              <div>
+              >
+                {" "}
+                Add Image
+              </Button>
+              Some image is going to go here
+              <Card.Title>
                 <input
-                  placeholder="Author"
+                  placeholder="Insert title here..."
                   style={{
-                    width: "15%",
-                    height: "30px",
-                    marginBottom: "5px",
+                    marginTop: "15%",
+                    width: "75%",
+                    height: "100px",
                   }}
                 ></input>
-              </div>
-              <div>
-                <input
-                  placeholder="Date"
-                  style={{
-                    width: "15%",
-                    height: "30px",
-                  }}
-                ></input>
-              </div>
-            </Card.Subtitle>
+              </Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                <div>
+                  <input
+                    placeholder="Author"
+                    style={{
+                      width: "15%",
+                      height: "30px",
+                      marginBottom: "5px",
+                    }}
+                  ></input>
+                </div>
+                <div>
+                  <input
+                    placeholder="Date"
+                    style={{
+                      width: "15%",
+                      height: "30px",
+                    }}
+                  ></input>
+                </div>
+              </Card.Subtitle>
+            </div>
             <Card.Text>
               <textarea
                 placeholder="Content goes here..."
