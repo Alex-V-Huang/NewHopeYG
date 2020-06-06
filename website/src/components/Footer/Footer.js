@@ -17,7 +17,12 @@ class Footer extends Component {
   // componentDidUpdate(){}
 
   render() {
-    return <div>2020 New Hope Youth</div>;
+    return (
+      <div>
+        <div>2020 New Hope Youth</div>
+        <div>Instagram | Youtube</div>
+      </div>
+    );
   }
 }
 
