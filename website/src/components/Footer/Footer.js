@@ -18,9 +18,9 @@ class Footer extends Component {
 
   render() {
     return (
-      <div>
-        <div>2020 New Hope Youth</div>
-        <div>Instagram | Youtube</div>
+      <div style={{ backgroundcolor: "blue;" }}>
+        <div style={{ float: "left;" }}>2020 New Hope Youth</div>
+        <div style={{ float: "right;" }}>Instagram | Youtube</div>
       </div>
     );
   }
