@@ -1,6 +1,6 @@
 # NewHopeYG
 
-## Trello Board: https://trello.com/b/L6SpNzg1/project-x
+## Trello Board: https://trello.com/b/L6SpNzg1/project-new-hope-youth
 
 ## Google Drive: https://drive.google.com/open?id=1d_wGmCG2EGKOQZk5cfR8G8pa9kpNrEHt
 
