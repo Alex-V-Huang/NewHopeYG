@@ -14,7 +14,7 @@ class Navbar extends Component {
                 <Navibar className='color-nav' >
                     <Navibar.Toggle aria-controls="basic-navbar-nav" />
                     <Navibar.Collapse id="basic-navbar-nav">
-                        <Nav justified fill>
+                        <Nav justified fill className='nav-wrapper'>
                             <Nav.Link className='color-text' href="/">Home</Nav.Link>
                             <NavDropdown title="Blog" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/blog">Read</NavDropdown.Item>

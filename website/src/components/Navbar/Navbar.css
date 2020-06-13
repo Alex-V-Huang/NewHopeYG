@@ -1,5 +1,10 @@
 .color-nav {
     background-color: #F7E173;
+
+}
+
+.nav-wrapper {
+    margin: 0rem 3rem;
 }
 
 /* .color-text > a {

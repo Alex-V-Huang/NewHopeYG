@@ -18,8 +18,7 @@ class FAQCard extends Component {
 
   render() {
     return (
-      <div style={{ backgroundColor: "gray", padding: "15px" }}>
-        This is the FAQ Card
+      <div style={{ backgroundColor: "gray", padding: "15px", margin: '2rem 0rem' }}>
         <div
           style={{
             backgroundColor: "white",

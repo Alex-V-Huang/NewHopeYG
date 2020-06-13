@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import "./BlogHomeView.css";
 
-
-
-
-import Navbar from '../../components/Navbar/Navbar.js';
 import BlogCard from '../../components/BlogCard/BlogCard.js';
-import Logo from '../../components/Logo/Logo.js';
 import Banner from '../../components/Banner/Banner.js';
+
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 
 class BlogHomeView extends Component {
 
@@ -16,16 +16,32 @@ class BlogHomeView extends Component {
         return (
             <div>
 
-                <Logo></Logo>
-                
-                <Navbar />
-
                 <Banner />
-                
 
-
-                <BlogCard />
-
+                <Container className='wrapper'>
+                    <Row className='row'>
+                        <Col>
+                            <BlogCard></BlogCard>
+                        </Col>
+                        <Col>
+                            <BlogCard></BlogCard>
+                        </Col>
+                        <Col>
+                            <BlogCard></BlogCard>
+                        </Col>
+                    </Row>
+                    <Row className='row'>
+                        <Col>
+                            <BlogCard></BlogCard>
+                        </Col>
+                        <Col>
+                            <BlogCard></BlogCard>
+                        </Col>
+                        <Col>
+                            <BlogCard></BlogCard>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         )
     }

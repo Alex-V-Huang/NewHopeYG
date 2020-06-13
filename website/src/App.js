@@ -9,12 +9,17 @@ import ReadPostView from "./views/ReadPostView/ReadPostView.js";
 import WritePostView from "./views/WritePostView/WritePostView.js";
 import FAQView from "./views/FAQView/FAQView.js";
 import ContactUsView from "./views/ContactUsView/ContactUsView";
-import Footer from "./components/Footer";
+
+import Logo from './components/Logo/Logo.js';
+import Navbar from './components/Navbar/Navbar.js';
+import Footer from "./components/Footer/Footer.js";
 
 class App extends Component {
   render() {
     return (
       <div>
+        <Logo></Logo>
+        <Navbar></Navbar>
         <Router>
           <Route exact path="/" render={() => <HomepageView></HomepageView>} />
           <Route

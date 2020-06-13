@@ -1,12 +1,19 @@
 import React, { Component } from "react";
 import "./ContactUsView.css";
 
+import Banner from '../../components/Banner/Banner.js';
+
 class ContactUsView extends Component {
 
     render() {
 
         return (
-            <div>This is the contact us page.</div>
+            <div>
+                <Banner />
+                <div className='wrapper'>
+                    <p>Contact us information here...</p>
+                </div>
+            </div>
         )
     }
 }
