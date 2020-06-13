@@ -8,7 +8,7 @@ class Banner extends Component {
 
         return (
             <div className='banner'>
-                <h1 className='bannerText'>Banner Title</h1>>
+                <h1 className='bannerText'>Banner Title</h1>
             </div>
         )
     }
