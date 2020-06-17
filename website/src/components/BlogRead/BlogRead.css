@@ -21,6 +21,17 @@
   padding-bottom: 2%;
 }
 
+#AddImageButton {
+  float: right;
+  margin: 2%;
+  width: 90px;
+  height: 35px;
+  font-size: 12px;
+  background-color: #f6e173;
+  border: none;
+  color: black;
+}
+
 .card-title-self {
   margin-top: 15%;
   width: 75%;
@@ -41,4 +52,18 @@
   font-size: 20px;
   padding: 2%;
   border: solid gray 1px;
+}
+
+.submit-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+#SubmitButton {
+  width: 250px;
+  height: 35px;
+  font-size: 12px;
+  background-color: #f6e173;
+  border: none;
+  color: black;
 }
