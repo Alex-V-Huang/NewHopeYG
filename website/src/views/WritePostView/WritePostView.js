@@ -6,7 +6,6 @@ class WritePostView extends Component {
   render() {
     return (
       <div>
-        <div>This is the blog write post page.</div>
         <BlogWrite> </BlogWrite>
       </div>
     );

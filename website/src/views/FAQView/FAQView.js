@@ -11,10 +11,10 @@ class FAQView extends Component {
 
         return (
             <div>
-                <Banner></Banner>
+                <Banner title='FAQ' />
                 <div className='wrapper'>
-                    <FAQCard />
-                    <FAQCard />
+                    <FAQCard question='why is joboy so cool?' answer='TBD'/>
+                    <FAQCard question='what is the point of this?' answer='a resource for NHY'/>
                 </div>
 
             </div>

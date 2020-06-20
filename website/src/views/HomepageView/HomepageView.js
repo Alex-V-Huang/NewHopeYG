@@ -14,7 +14,7 @@ class HomepageView extends Component {
         return (
             <div>
 
-                <Banner></Banner>
+                <Banner title='Welcome to our website...' />
 
                 <Container className='wrapper'>
                     <Row className='row'>

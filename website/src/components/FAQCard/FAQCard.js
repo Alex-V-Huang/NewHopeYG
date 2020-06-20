@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import "./FAQCard.css";
 
 class FAQCard extends Component {
-  // constructor(props){
-  // super(props);
+  constructor(props){
+  super(props);
   // this.state = {};
-  // }
+  }
 
   // componentWillMount(){}
   // componentDidMount(){}
@@ -29,7 +29,7 @@ class FAQCard extends Component {
             margin: "10px",
           }}
         >
-          Question
+          Question: {this.props.question}
         </div>
         <div
           style={{
@@ -41,7 +41,7 @@ class FAQCard extends Component {
             margin: "10px",
           }}
         >
-          Answer
+          Answer: {this.props.answer}
         </div>
       </div>
     );

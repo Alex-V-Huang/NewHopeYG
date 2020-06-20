@@ -1,6 +1,6 @@
 import firebase from 'firebase';
 
-const firebaseConfig = {
+const config = {
     apiKey: "AIzaSyAyL_1TGPwejT4tqX3kyTY6nTe-9SpDy2M",
     authDomain: "new-hope-youth.firebaseapp.com",
     databaseURL: "https://new-hope-youth.firebaseio.com",

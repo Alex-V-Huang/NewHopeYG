@@ -9,7 +9,7 @@ class ContactUsView extends Component {
 
         return (
             <div>
-                <Banner />
+                <Banner title='Contact Us'/>
                 <div className='wrapper'>
                     <p>Contact us information here...</p>
                 </div>

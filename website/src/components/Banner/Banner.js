@@ -4,11 +4,15 @@ import "./Banner.css";
 
 class Banner extends Component {
 
+    // constructor(props){
+    //     super(props);
+    // }
+
     render() {
 
         return (
             <div className='banner'>
-                <h1 className='bannerText'>Banner Title</h1>
+                <h1 className='bannerText'>{this.props.title}</h1>
             </div>
         )
     }

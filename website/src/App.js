@@ -9,10 +9,13 @@ import ReadPostView from "./views/ReadPostView/ReadPostView.js";
 import WritePostView from "./views/WritePostView/WritePostView.js";
 import FAQView from "./views/FAQView/FAQView.js";
 import ContactUsView from "./views/ContactUsView/ContactUsView";
+import BlogArticleView from "./views/BlogArticleView/BlogArticleView";
 
 import Logo from './components/Logo/Logo.js';
 import Navbar from './components/Navbar/Navbar.js';
 import Footer from "./components/Footer/Footer.js";
+
+// import firebase from './firebase.js';
 
 class App extends Component {
   render() {
@@ -21,10 +24,12 @@ class App extends Component {
         <Logo></Logo>
         <Navbar></Navbar>
         <Router>
-          <Route exact path="/" render={() => <HomepageView></HomepageView>} />
+          <Route 
+            exact path="/" 
+            render={() => <HomepageView></HomepageView>} 
+          />
           <Route
-            exact
-            path="/blog"
+            exact path="/blog"
             render={() => <BlogHomeView></BlogHomeView>}
           />
           <Route
@@ -35,7 +40,14 @@ class App extends Component {
             path="/blog/write"
             render={() => <WritePostView></WritePostView>}
           />
-          <Route path="/faq" render={() => <FAQView></FAQView>} />
+          <Route 
+            path="/blog/article"
+            render={() => <BlogArticleView></BlogArticleView>}
+          />
+          <Route 
+            path="/faq" 
+            render={() => <FAQView></FAQView>} 
+          />
           <Route
             path="/contactus"
             render={() => <ContactUsView></ContactUsView>}
