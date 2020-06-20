@@ -20,68 +20,20 @@ class BlogRead extends Component {
   render() {
     return (
       <div>
-        <Card
-          style={{
-            marginLeft: "auto",
-            marginRight: "auto",
-            marginTop: "20px",
-            marginBottom: "20px",
-            width: "80rem",
-            height: "50%",
-          }}
-        >
+        <Card className="overall-card">
           <Card.Body>
-            <div
-              style={{
-                backgroundColor: "gray",
-                paddingLeft: "2%",
-                paddingBottom: "2%",
-              }}
-            >
+            <div className="card-top">
               Some image is going to go here
-              <Card.Title
-                style={{
-                  marginTop: "15%",
-                  width: "75%",
-                  height: "100px",
-                  fontSize: "40px",
-                  textAlign: "bottom",
-                }}
-              >
+              <Card.Title className="card-title-self">
                 [TITLE FROM DB]
               </Card.Title>
               <Card.Subtitle className="mb-2">
-                <h2
-                  style={{
-                    width: "15%",
-                    height: "30px",
-                    marginBottom: "5px",
-                    fontSize: "20px",
-                  }}
-                >
-                  [AUTHOR]
-                </h2>
-                <h2
-                  style={{
-                    width: "15%",
-                    height: "30px",
-                    marginBottom: "5px",
-                    fontSize: "20px",
-                  }}
-                >
-                  [DATE]
-                </h2>
+                <h2 className="card-subtitle-field">[AUTHOR]</h2>
+                <h2 className="card-subtitle-field">[DATE]</h2>
               </Card.Subtitle>
             </div>
             <div>
-              <Card.Text
-                style={{
-                  width: "100%",
-                  fontSize: "20px",
-                  padding: "2%",
-                  border: "solid gray 1px",
-                }}
-              >
+              <Card.Text className="card-content">
                 [Content goes here]
               </Card.Text>
             </div>

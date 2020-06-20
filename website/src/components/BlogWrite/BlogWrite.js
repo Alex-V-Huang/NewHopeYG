@@ -59,44 +59,16 @@ class BlogWrite extends Component {
   render() {
     return (
       <div>
-        <Card
-          style={{
-            marginLeft: "auto",
-            marginRight: "auto",
-            marginTop: "20px",
-            marginBottom: "20px",
-            width: "80rem",
-            height: "50%",
-          }}
-        >
+        <Card className="overall-card">
           <Card.Body>
-            <div
-              style={{
-                backgroundColor: "gray",
-                paddingLeft: "2%",
-                paddingBottom: "2%",
-              }}
-            >
-              <Button
-                style={{
-                  float: "right",
-                  margin: "2%",
-                  width: "90px",
-                  height: "35px",
-                  fontSize: "12px",
-                  backgroundColor: "#f6e173",
-                  border: "none",
-                  color: "black",
-                }}
-              >
-                {" "}
-                Add Image
-              </Button>
+            <div className="card-top">
+              <Button id="AddImageButton"> Add Image</Button>
               Some image is going to go here
               <Card.Title>
                 <input
                   name='title'
                   placeholder="Insert title here..."
+<<<<<<< HEAD
                   onChange={this.handleChange}
                   value={this.state.title}
                   style={{
@@ -106,6 +78,9 @@ class BlogWrite extends Component {
                     fontSize: "40px",
                     textAlign: "bottom",
                   }}
+=======
+                  className="card-title-self"
+>>>>>>> 940bb44ea8ee397732aa01fbd4b60b1f235557be
                 ></input>
               </Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
@@ -113,6 +88,7 @@ class BlogWrite extends Component {
                   <input
                     name='author'
                     placeholder="Author"
+<<<<<<< HEAD
                     onChange={this.handleChange}
                     value={this.state.author}
                     style={{
@@ -121,12 +97,16 @@ class BlogWrite extends Component {
                       marginBottom: "5px",
                       fontSize: "20px",
                     }}
+=======
+                    className="card-subtitle-field"
+>>>>>>> 940bb44ea8ee397732aa01fbd4b60b1f235557be
                   ></input>
                 </div>
                 <div>
                   <input
                     name='date'
                     placeholder="Date"
+<<<<<<< HEAD
                     onChange={this.handleChange}
                     value={this.state.date}
                     style={{
@@ -134,6 +114,9 @@ class BlogWrite extends Component {
                       height: "30px",
                       fontSize: "20px",
                     }}
+=======
+                    className="card-subtitle-field"
+>>>>>>> 940bb44ea8ee397732aa01fbd4b60b1f235557be
                   ></input>
                 </div>
               </Card.Subtitle>
@@ -146,33 +129,11 @@ class BlogWrite extends Component {
                   onChange={this.handleChange}
                   value={this.state.content}
                   rows="20"
-                  style={{
-                    width: "100%",
-                    fontSize: "20px",
-                    padding: "2%",
-                  }}
+                  className="card-content"
                 ></textarea>
               </Card.Text>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                }}
-              >
-                <Button 
-                  onClick={this.handleSubmit} 
-                  style={{
-                    width: "250px",
-                    height: "35px",
-                    fontSize: "12px",
-                    backgroundColor: "#f6e173",
-                    border: "none",
-                    color: "black",
-                  }}
-                >
-                  {" "}
-                  Submit
-                </Button>
+              <div className="submit-button-container">
+                <Button id="SubmitButton" onClick={this.handleSubmit}> Submit</Button>
               </div>
             </div>
           </Card.Body>

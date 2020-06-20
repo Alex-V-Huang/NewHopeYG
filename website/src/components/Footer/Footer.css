@@ -3,5 +3,32 @@
 */
 
 .Footer {
-    /* propertys here */
+  /* propertys here */
+}
+
+.footer-wrapper {
+  position: absolute;
+  bottom: 0;
+  background-color: #f6e173;
+  width: 100%;
+  height: 100px;
+  padding: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#NewHopeYouthFooterText {
+  float: left;
+  height: 100%;
+  line-height: 50px;
+}
+
+#SocialsImagesWrapper {
+  height: 100%;
+  float: right;
+  line-height: 50px;
+}
+
+#InstagramLogo {
+  margin-right: 1.5rem;
 }

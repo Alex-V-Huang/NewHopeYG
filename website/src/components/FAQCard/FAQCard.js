@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import "./FAQCard.css";
 
 class FAQCard extends Component {
-  constructor(props){
-  super(props);
+  // constructor(props){
+  // super(props);
   // this.state = {};
-  }
+  // }
 
   // componentWillMount(){}
   // componentDidMount(){}
@@ -18,31 +18,9 @@ class FAQCard extends Component {
 
   render() {
     return (
-      <div style={{ backgroundColor: "gray", padding: "15px", margin: '2rem 0rem' }}>
-        <div
-          style={{
-            backgroundColor: "white",
-            paddingLeft: "15px",
-            paddingTop: "15px",
-            paddingRight: "50px",
-            paddingBottom: "10px",
-            margin: "10px",
-          }}
-        >
-          Question: {this.props.question}
-        </div>
-        <div
-          style={{
-            backgroundColor: "white",
-            paddingLeft: "15px",
-            paddingTop: "15px",
-            paddingRight: "50px",
-            paddingBottom: "50px",
-            margin: "10px",
-          }}
-        >
-          Answer: {this.props.answer}
-        </div>
+      <div className="background-div">
+        <div className="question">Question: {this.props.question}</div>
+        <div className="answer">Answer: {this.props.answer}</div>
       </div>
     );
   }

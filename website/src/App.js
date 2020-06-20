@@ -11,8 +11,8 @@ import FAQView from "./views/FAQView/FAQView.js";
 import ContactUsView from "./views/ContactUsView/ContactUsView";
 import BlogArticleView from "./views/BlogArticleView/BlogArticleView";
 
-import Logo from './components/Logo/Logo.js';
-import Navbar from './components/Navbar/Navbar.js';
+import Logo from "./components/Logo/Logo.js";
+import Navbar from "./components/Navbar/Navbar.js";
 import Footer from "./components/Footer/Footer.js";
 
 // import firebase from './firebase.js';
