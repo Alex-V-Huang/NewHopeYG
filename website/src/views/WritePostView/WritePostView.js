@@ -5,7 +5,7 @@ import BlogWrite from "../../components/BlogWrite/BlogWrite.js";
 class WritePostView extends Component {
   render() {
     return (
-      <div>
+      <div className="page-container">
         <div>This is the blog write post page.</div>
         <BlogWrite> </BlogWrite>
       </div>

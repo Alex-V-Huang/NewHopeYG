@@ -17,7 +17,7 @@ import Footer from "./components/Footer/Footer.js";
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="page-container">
         <Logo></Logo>
         <Navbar></Navbar>
         <Router>
