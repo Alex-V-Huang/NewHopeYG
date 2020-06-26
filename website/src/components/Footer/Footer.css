@@ -1,14 +1,5 @@
-/*
- * Footer css File
-*/
-
-.Footer {
-  /* propertys here */
-}
-
 .footer-wrapper {
-  position: absolute;
-  bottom: 0;
+  /* position: absolute; */
   background-color: #f6e173;
   width: 100%;
   height: 100px;

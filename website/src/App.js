@@ -20,40 +20,44 @@ import Footer from "./components/Footer/Footer.js";
 class App extends Component {
   render() {
     return (
-      <div>
-        <Logo></Logo>
-        <Navbar></Navbar>
-        <Router>
-          <Route 
-            exact path="/" 
-            render={() => <HomepageView></HomepageView>} 
-          />
-          <Route
-            exact path="/blog"
-            render={() => <BlogHomeView></BlogHomeView>}
-          />
-          <Route
-            path="/blog/read"
-            render={() => <ReadPostView></ReadPostView>}
-          />
-          <Route
-            path="/blog/write"
-            render={() => <WritePostView></WritePostView>}
-          />
-          <Route 
-            path="/blog/article"
-            render={() => <BlogArticleView></BlogArticleView>}
-          />
-          <Route 
-            path="/faq" 
-            render={() => <FAQView></FAQView>} 
-          />
-          <Route
-            path="/contactus"
-            render={() => <ContactUsView></ContactUsView>}
-          />
-        </Router>
-        <Footer />
+      <div id='page-container'>
+        <div id='wrapper'>
+          <Logo></Logo>
+          <Navbar></Navbar>
+          <Router>
+            <Route 
+              exact path="/" 
+              render={() => <HomepageView></HomepageView>} 
+            />
+            <Route
+              exact path="/blog"
+              render={() => <BlogHomeView></BlogHomeView>}
+            />
+            <Route
+              path="/blog/read"
+              render={() => <ReadPostView></ReadPostView>}
+            />
+            <Route
+              path="/blog/write"
+              render={() => <WritePostView></WritePostView>}
+            />
+            <Route 
+              path="/blog/article"
+              render={() => <BlogArticleView></BlogArticleView>}
+            />
+            <Route 
+              path="/faq" 
+              render={() => <FAQView></FAQView>} 
+            />
+            <Route
+              path="/contactus"
+              render={() => <ContactUsView></ContactUsView>}
+            />
+          </Router>
+
+          <div id='push'></div>
+        </div>
+        <Footer id='footer'/>
       </div>
     );
   }

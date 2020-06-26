@@ -8,9 +8,10 @@
 }
 
 #background {
-    background-color: gray;
+    /* background-color: gray;
     padding-left: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 2%; */
+    background-image: url('http://placehold.it/75X75');
 }
 
 #title {

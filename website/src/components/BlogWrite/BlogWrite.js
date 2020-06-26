@@ -56,68 +56,74 @@ class BlogWrite extends Component {
     })
   }
 
+  handleImage(e) {
+
+    const reader = new FileReader();
+    const fileInput = document.getElementById("file");    
+    const img = document.getElementById("img");
+
+    
+    const f = e.target.files[0]
+    reader.readAsDataURL(f);
+
+    // reader.onload = e => {
+    //   img.src = e.target.result;
+    // }
+
+    const background = document.getElementById('card-image')
+
+
+    reader.onload = e => {
+
+      console.log(e.target.result)
+      background.style.backgroundImage = 'url(' + e.target.result + ')';
+    }
+
+    
+
+  }
+
+
+
   render() {
     return (
       <div>
         <Card className="overall-card">
           <Card.Body>
-            <div className="card-top">
-              <Button id="AddImageButton"> Add Image</Button>
-              Some image is going to go here
+            {/* <div className="card-top"> */}
+            <div id='card-image'>
+
+              {/* <Button id="AddImageButton" onClick={this.handleImage}>Add Image</Button> */}
+
+              <input type='file' id='file' accept='image/*' onChange={this.handleImage}></input>
+
               <Card.Title>
                 <input
                   name='title'
-                  placeholder="Insert title here..."
-<<<<<<< HEAD
                   onChange={this.handleChange}
                   value={this.state.title}
-                  style={{
-                    marginTop: "15%",
-                    width: "75%",
-                    height: "100px",
-                    fontSize: "40px",
-                    textAlign: "bottom",
-                  }}
-=======
-                  className="card-title-self"
->>>>>>> 940bb44ea8ee397732aa01fbd4b60b1f235557be
-                ></input>
+                  placeholder="Insert title here..."
+                  className="card-title-self">
+                </input>
               </Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
                 <div>
                   <input
                     name='author'
-                    placeholder="Author"
-<<<<<<< HEAD
                     onChange={this.handleChange}
                     value={this.state.author}
-                    style={{
-                      width: "15%",
-                      height: "30px",
-                      marginBottom: "5px",
-                      fontSize: "20px",
-                    }}
-=======
-                    className="card-subtitle-field"
->>>>>>> 940bb44ea8ee397732aa01fbd4b60b1f235557be
-                  ></input>
+                    placeholder="Author"
+                    className="card-subtitle-field">
+                  </input>
                 </div>
                 <div>
                   <input
                     name='date'
                     placeholder="Date"
-<<<<<<< HEAD
                     onChange={this.handleChange}
                     value={this.state.date}
-                    style={{
-                      width: "15%",
-                      height: "30px",
-                      fontSize: "20px",
-                    }}
-=======
-                    className="card-subtitle-field"
->>>>>>> 940bb44ea8ee397732aa01fbd4b60b1f235557be
-                  ></input>
+                    className="card-subtitle-field">
+                  </input>
                 </div>
               </Card.Subtitle>
             </div>
@@ -129,8 +135,8 @@ class BlogWrite extends Component {
                   onChange={this.handleChange}
                   value={this.state.content}
                   rows="20"
-                  className="card-content"
-                ></textarea>
+                  className="card-content">
+                </textarea>
               </Card.Text>
               <div className="submit-button-container">
                 <Button id="SubmitButton" onClick={this.handleSubmit}> Submit</Button>

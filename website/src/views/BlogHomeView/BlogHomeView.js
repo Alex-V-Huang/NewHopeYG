@@ -48,6 +48,9 @@ class BlogHomeView extends Component {
 
     render() {
 
+        var articleCounter = 0;
+
+
         return (
             <div>
 
@@ -57,6 +60,9 @@ class BlogHomeView extends Component {
                     <Row className='row'>
                         
                         {this.state.articles.map((article) =>{
+                            console.log(this.state.articles.length);
+
+                            
                             return (
                                 <Col>
                                     <BlogCard 
@@ -66,6 +72,8 @@ class BlogHomeView extends Component {
                                 </Col>
                             )
                         })}
+
+
                     </Row>
 
                     {/* <Row className='row'>

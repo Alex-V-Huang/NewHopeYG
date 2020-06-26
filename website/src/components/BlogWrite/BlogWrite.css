@@ -2,10 +2,9 @@
  * BlogWrite css File
 */
 
-.BlogWrite {
-  /* propertys here */
+#card-image{
+  background-image: url('http://placehold.it/75X75')
 }
-
 /*
  * BlogRead css File
 */
